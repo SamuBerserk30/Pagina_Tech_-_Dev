@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Tech & Dev - Carrito</title>
+	<link rel="stylesheet" href="css/styles.css" />
+	<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="flex flex-col min-h-screen bg-gray-100">
+	<header class="mb-2">
+		<iframe
+			src="components/navbar.html"
+			frameborder="0"
+			scrolling="no" class="w-full h-20 border-none">
+		</iframe>
+	</header>
+
+	<main class="flex-1 flex flex-col px-4 py-2">
+		<section class="flex flex-col items-center justify-center bg-white rounded-lg shadow p-4 mb-4">
+			<h1 class="text-center text-3xl font-bold text-blue-700 py-2 md:text-4xl lg:text-5xl">
+				Tu Carrito de Compras
+			</h1>
+		</section>
+
+		<section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+
+			<div class="bg-white rounded-xl shadow-md p-4 flex flex-col items-center text-center">
+				<img src="images/products/accessories/headphones1.jpg" alt="Audífonos" class="w-48 h-48 object-cover mb-4">
+				<h3 class="font-bold text-lg text-blue-700">Audífonos Sony</h3>
+				<p class="text-gray-600">Cancelación de ruido premium</p>
+				<span class="text-green-600 font-semibold mt-2">$239.900</span>
+			</div>
+
+			<div class="bg-white rounded-xl shadow-md p-4 flex flex-col items-center text-center">
+				<img src="images/products/computers/laptop1.jpg" alt="MacBook Pro" class="w-48 h-48 object-cover mb-4">
+				<h3 class="font-bold text-lg text-blue-700">MacBook Pro</h3>
+				<p class="text-gray-600">Potencia para creadores</p>
+				<span class="text-green-600 font-semibold mt-2">$6.499.000</span>
+			</div>
+
+			<div class="bg-white rounded-xl shadow-md p-4 flex flex-col items-center text-center">
+				<img src="images/products/computers/laptop2.jpg" alt="Laptop convertible" class="w-48 h-48 object-cover mb-4">
+				<h3 class="font-bold text-lg text-blue-700">Laptop Convertible</h3>
+				<p class="text-gray-600">Versatilidad 2 en 1</p>
+				<span class="text-green-600 font-semibold mt-2">$2.199.000</span>
+			</div>
+
+			<div class="bg-white rounded-xl shadow-md p-4 flex flex-col items-center text-center">
+				<img src="images/products/peripherals/keyboard1.jpg" alt="Teclado Logitech" class="w-48 h-48 object-cover mb-4">
+				<h3 class="font-bold text-lg text-blue-700">Teclado MX Keys</h3>
+				<p class="text-gray-600">Diseñado para programadores</p>
+				<span class="text-green-600 font-semibold mt-2">$369.900</span>
+			</div>
+		</section>
+
+		<section class="bg-white rounded-xl shadow-md p-6 max-w-2xl mx-auto text-center">
+			<h2 class="text-2xl font-bold text-gray-700 mb-4">Total del Carrito</h2>
+			<p class="text-3xl font-semibold text-blue-700 mb-6">$9.307.800</p>
+			<div class="flex flex-col sm:flex-row justify-center gap-4">
+				<button class="bg-red-500 hover:bg-red-600 text-white px-6 py-2 rounded-lg transition">
+					Vaciar Carrito
+				</button>
+				<button class="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg transition">
+					Pagar Ahora
+				</button>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<iframe 
+			src="components/footer.html"
+			frameborder="0"
+			scrolling="no" class="w-full min-h-[18rem] sm:min-h-[20rem] md:min-h-[14rem] lg:min-h-[15rem] border-none">
+		</iframe>
+	</footer>
+</body>
+</html>

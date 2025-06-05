@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Tech & Dev - Inicio</title>
+	<link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+<body class="flex flex-col min-h-screen bg-gray-100">
+	<header class="mb-2">
+		<iframe
+			src="components/navbar.html"
+			frameborder="0"
+			scrolling="no"
+			class="w-full h-20 border-none">
+		</iframe>
+	</header>
+
+	<main class="flex-1 flex flex-col px-4 py-2">
+		<section class="flex flex-col items-center justify-center bg-white rounded-lg shadow p-4 mb-6">
+			<h1 class="text-center text-3xl font-bold text-blue-700 py-2 md:text-4xl lg:text-5xl">
+				Bienvenido a Tecnología y Desarrollo
+			</h1>
+			<p class="text-center text-base text-gray-600 md:text-lg lg:text-xl">
+				Tu tienda de confianza para los mejores productos tecnológicos al mejor precio
+			</p>
+		</section>
+
+		<section>
+			<h2 class="text-2xl font-semibold mb-4 text-gray-800 text-center">Nuestras Categorías</h2>
+			<div class="flex flex-wrap justify-center gap-6">
+				
+				
+				<a href="products.html#computers" class="bg-white rounded-2xl shadow-lg overflow-hidden w-72 transition-transform duration-300 hover:scale-105">
+					<img src="images/banners/computers.jpg" alt="Computadoras" class="w-full h-48 object-cover">
+					<div class="p-4">
+						<h3 class="font-bold text-lg text-blue-700">Computadoras</h3>
+						<p class="text-gray-600">Los mejores equipos para trabajo y gaming</p>
+					</div>
+					
+				</a>
+
+				<a href="products.html#accessories" class="bg-white rounded-2xl shadow-lg overflow-hidden w-72 transition-transform duration-300 hover:scale-105">
+					<img src="images/banners/accessories.jpg" alt="Accesorios" class="w-full h-48 object-cover">
+					<div class="p-4">
+						<h3 class="font-bold text-lg text-blue-700">Accesorios</h3>
+						<p class="text-gray-600">Complementos para tu setup ideal</p>
+					</div>
+				</a>
+
+				<a href="products.html#peripherals" class="bg-white rounded-2xl shadow-lg overflow-hidden w-72 transition-transform duration-300 hover:scale-105">
+					<img src="images/banners/peripherals.jpg" alt="Periféricos" class="w-full h-48 object-cover">
+					<div class="p-4">
+						<h3 class="font-bold text-lg text-blue-700">Periféricos</h3>
+						<p class="text-gray-600">Mejora tu experiencia de usuario</p>
+					</div>
+				</a>
+
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<iframe 
+		src="components/footer.html"
+			frameborder="0"
+			scrolling="no"
+			 class="w-full min-h-[18rem] sm:min-h-[20rem] md:min-h-[14rem] lg:min-h-[15rem] border-none">
+		</iframe>
+	</footer>
+</body>
+</html>
